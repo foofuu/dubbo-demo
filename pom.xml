@@ -25,7 +25,7 @@
         <junit.version>4.8.2</junit.version>
         <findbugs.version>2.5.2</findbugs.version>
         <checkstyle.version>2.9.1</checkstyle.version>
-        <org.springframework.version>4.3.1.RELEASE</org.springframework.version>
+        <org.springframework.version>4.3.12.RELEASE</org.springframework.version>
         <com.alibaba.dubbo.version>2.5.8</com.alibaba.dubbo.version>
         <org.apache.zookeeper.version>3.4.6</org.apache.zookeeper.version>
         <com.101tec.zkclient.version>0.9</com.101tec.zkclient.version>
