@@ -20,13 +20,13 @@ public class DemoController {
 
     private static Logger logger = LoggerFactory.getLogger(DemoController.class);
 
-    /*@Resource
-    DemoService demoService;*/
+    @Resource
+    DemoService demoService;
 
     @RequestMapping(value ="/test",method={RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
-    public String testCategoryAccuracy(@RequestParam String name) {
-        /*return demoService.sayHello(name);*/
-        return name;
+    public String test(@RequestParam String name) {
+        logger.info("test name, " + name);
+        return demoService.sayHello(name);
     }
 }
