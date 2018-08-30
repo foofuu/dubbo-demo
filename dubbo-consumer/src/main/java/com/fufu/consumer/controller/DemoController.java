@@ -27,6 +27,6 @@ public class DemoController {
     @ResponseBody
     public String test(@RequestParam String name) {
         logger.info("test name, " + name);
-        return demoService.sayHello(name);
+        return "hi, " + demoService.sayHello(name);
     }
 }
